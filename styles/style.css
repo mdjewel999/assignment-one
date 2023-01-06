@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* header-area styles */
+.header {
+  background-image: url(../images/banner/banner3.png);
+  background-repeat: no-repeat;
+}
+.header-area {
+  padding: 216px 60px 313px 850px;
+}
+.header-title {
+  font-weight: 700;
+  font-size: 65px;
+  color: #ffffff;
+}
+.header-description {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+}
+.btn-primary {
+  font-weight: 600;
+  font-size: 20px;
+  color: #005fac;
+  background: #ffffff;
+  margin-top: 30px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  text-decoration: none;
+}
+/* previous-year styles */
+.previous-year {
+}
+.previous-year-box {
+  display: flex;
+}
+.previous-Left {
+}
+.previous-Right {
+}
+.previous-year-title {
+}
+.previous-year-description {
+}
+/* My-Plans-area styles */
+.My-Plans-area {
+}
+
+.My-Plans-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 50px;
+}
+.web-contanier {
+  display: flex;
+  gap: 80px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.Web-Development {
+}
+.icons {
+  margin-left: 32px;
+}
+.Development-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+  margin-top: 20px;
+}
+.Development-description {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
+  margin-top: 10px;
+}
+/* contact-area style */
+
+.contact-area {
+  background: url(../images/watch.png); linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+  margin-left: 140px;
+  margin-right: 208px;
+  margin-top: 130px;
+  padding: 59px 550px 59px 65px;
+  border-radius: 8px;
+}
+
+.contact-text {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+}
+.btn-primary a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  color: #005fac;
+  background: #ffffff;
+  margin-top: 30px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+}
+/* footer-area style */
+.footer-area {
+  display: flex;
+  gap: 330px;
+  background: #151414;
+  margin-top: 130px;
+}
+.footer-left {
+  padding: 130px 0px 130px 230px;
+}
+.title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #f8f8f8;
+}
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 15px;
+}
+.footer-right {
+  padding: 130px 230px 243px 0px;
+}
+
+.footer-right h3 {
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.social-madia {
+  background-color: #151414;
+}
+.btn {
+  border: none;
+  padding: 25px 25px 25px 25px;
+  background: none;
+  color: #005fac;
+  font-size: 45px;
+}
