@@ -3,6 +3,30 @@
   margin: 0;
   padding: 0;
 }
+/* menu-bar-area-styles */
+.menu-bar {
+  background-color: rgb(0, 38, 255);
+  text-align: center;
+}
+.menu-bar ul {
+  display: inline-flex;
+  list-style: none;
+}
+.menu-bar ul li {
+  width: 100px;
+  margin: 6px;
+  padding: 10px;
+  font-size: x-large;
+}
+.menu-bar ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.active,
+.menu-bar ul li:hover {
+  background: rgb(122, 143, 81);
+  border-radius: 8%;
+}
 /* header-area styles */
 .header {
   background-image: url(../images/banner/banner3.png);
@@ -35,7 +59,7 @@
   text-decoration: none;
 }
 /* previous-year styles */
-.previous-year{
+.previous-year {
   margin-top: 100px;
 }
 .previous-year-box {
@@ -46,7 +70,7 @@
   padding: 0px 0px 130px 100px;
 }
 .previous-Right {
-  padding: 240px 200px 130px 0px;
+  padding: 200px 200px 130px 0px;
 }
 .previous-year-title {
   font-weight: 700;
@@ -60,17 +84,20 @@
   color: #444343;
   margin-bottom: 16px;
 }
-.description-list img {
-  width: 30px;
-  height: 31px;
-  margin-top: 20px;
-  margin-right: 6px;
+.fa-check::before {
+  text-decoration: none;
+  color: aqua;
+  margin-right: 13px;
 }
-.list {
-  font-weight: 400;
-  font-size: 20px;
+.description-list span {
   color: #444343;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  text-transform: none;
 }
+
 /* My-Plans-area styles */
 
 .My-Plans-title {
