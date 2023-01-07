@@ -4,27 +4,27 @@
   padding: 0;
 }
 /* menu-bar-area-styles */
-.menu-bar {
+.menu {
   background-color: rgb(0, 38, 255);
   text-align: center;
 }
-.menu-bar ul {
+.menu ul {
   display: inline-flex;
   list-style: none;
 }
-.menu-bar ul li {
+.menu ul li {
   width: 100px;
   margin: 6px;
   padding: 10px;
   font-size: x-large;
 }
-.menu-bar ul li a {
+.menu ul li a {
   text-decoration: none;
   color: #fff;
 }
 .active,
-.menu-bar ul li:hover {
-  background: rgb(122, 143, 81);
+.menu ul li:hover {
+  background: rgb(134, 158, 87);
   border-radius: 8%;
 }
 /* header-area styles */
