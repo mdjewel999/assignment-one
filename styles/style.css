@@ -1,3 +1,4 @@
+/* body */
 * {
   margin: 0;
   padding: 0;
@@ -8,17 +9,19 @@
   background-repeat: no-repeat;
 }
 .header-area {
-  padding: 216px 60px 313px 850px;
+  padding: 150px 150px 300px 847px;
+  text-align: right;
 }
 .header-title {
   font-weight: 700;
-  font-size: 65px;
+  font-size: 55px;
   color: #ffffff;
 }
 .header-description {
   color: #ffffff;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 15px;
+  line-height: 23px;
 }
 .btn-primary {
   font-weight: 600;
@@ -26,28 +29,49 @@
   color: #005fac;
   background: #ffffff;
   margin-top: 30px;
-  padding: 8px;
+  padding: 25px;
   border: 0;
   border-radius: 5px;
   text-decoration: none;
 }
 /* previous-year styles */
-.previous-year {
+.previous-year{
+  margin-top: 100px;
 }
 .previous-year-box {
   display: flex;
+  gap: 80px;
 }
 .previous-Left {
+  padding: 0px 0px 130px 100px;
 }
 .previous-Right {
+  padding: 240px 200px 130px 0px;
 }
 .previous-year-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 24px;
 }
 .previous-year-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  margin-bottom: 16px;
+}
+.description-list img {
+  width: 30px;
+  height: 31px;
+  margin-top: 20px;
+  margin-right: 6px;
+}
+.list {
+  font-weight: 400;
+  font-size: 20px;
+  color: #444343;
 }
 /* My-Plans-area styles */
-.My-Plans-area {
-}
 
 .My-Plans-title {
   text-align: center;
@@ -58,12 +82,9 @@
 }
 .web-contanier {
   display: flex;
-  gap: 80px;
+  gap: 96px;
   margin-left: 150px;
-  margin-right: 150px;
-}
-
-.Web-Development {
+  margin-right: 120px;
 }
 .icons {
   margin-left: 32px;
@@ -80,34 +101,29 @@
   color: #737272;
   margin-top: 10px;
 }
-/* contact-area style */
+/* inear-gradient-area style */
 
-.contact-area {
-  background: url(../images/watch.png); linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
-  margin-left: 140px;
-  margin-right: 208px;
-  margin-top: 130px;
-  padding: 59px 550px 59px 65px;
-  border-radius: 8px;
+.gradient {
+  background-image: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
+    url(../images/watch.png);
+  margin: 130px 150px 130px 150px;
 }
-
-.contact-text {
+.container {
+  padding: 35px 615px 80px 65px;
+}
+.btn-status {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 32px;
   color: #ffffff;
 }
 .btn-primary a {
-  text-decoration: none;
   font-weight: 600;
   font-size: 20px;
   color: #005fac;
-  background: #ffffff;
-  margin-top: 30px;
-  padding: 8px;
-  border: 0;
-  border-radius: 5px;
+  text-decoration: none;
 }
 /* footer-area style */
+
 .footer-area {
   display: flex;
   gap: 330px;
@@ -128,24 +144,42 @@
   color: #ffffff;
   margin-top: 15px;
 }
-.footer-right {
-  padding: 130px 230px 243px 0px;
-}
-
-.footer-right h3 {
-  font-weight: 600;
-  font-size: 25px;
-  color: #ffffff;
-  margin-bottom: 30px;
-}
 
 .social-madia {
   background-color: #151414;
 }
 .btn {
   border: none;
-  padding: 25px 25px 25px 25px;
+  padding: 25px 25px 25px 0px;
   background: none;
   color: #005fac;
   font-size: 45px;
 }
+
+.footer-right {
+  padding: 130px 150px 240px 0px;
+}
+
+.footer-right h3 {
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.Subscribe-email {
+  margin-bottom: 16px;
+  border: 1px solid #fff;
+  background: #151414;
+  border-radius: 5px;
+  padding: 14px 105px 20px 10px;
+  color: #fff;
+}
+.Subscribe {
+  background: #005fac;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 15px 25px 15px 25px;
+  border-radius: 5px;
+}
+/* ----End---- */
